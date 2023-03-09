@@ -117,13 +117,11 @@ def missed_coordinates(path1,path2):
 async def root(item: Item):
     try:
         a=tmp_img(item.Imagepath_2)
-        print(a)
         b=tmp_img(item.Imagepath_1)
         c=missed_coordinates(a,b)
         deldir("tmp")       
         differences = []
         for key, value in c.items():
-        # print(key,value)
             for item in value:
                 x1=item[0][0]
                 y1=item[0][1] 
