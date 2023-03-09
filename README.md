@@ -3,9 +3,7 @@ Comparing two images text by converting images into text by using pytesseract,Th
 
 # execution
 
-
 1. Install tesseract using windows installer available at: https://github.com/UB-Mannheim/tesseract/wiki
-
 
 2. Note the tesseract path from the installation. At the time of this edit, the default installation path was: "C:\Users\USER\AppData\Local\Tesseract-OCR" It may change, so please check the installation path.
 
