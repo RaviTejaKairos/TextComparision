@@ -2,17 +2,26 @@
 Comparing two images text by converting images into text by using pytesseract,Then comparing the text with the co-ordinates. 
 
 # execution
-pip install requirements.txt
 
 
-add pytesseract path in the config file
+1. Install tesseract using windows installer available at: https://github.com/UB-Mannheim/tesseract/wiki
 
 
-add the ranges of x and y in the config file
+2. Note the tesseract path from the installation. At the time of this edit, the default installation path was: "C:\Users\USER\AppData\Local\Tesseract-OCR" It may change, so please check the installation path.
+
+
+3.add pytesseract path in the config file
+
+
+4.add the ranges of x and y in the config file
 
 
 
-uvicorn text_comp:app --reload
+5.pip install requirements.txt
+
+
+
+6.uvicorn text_comp:app --reload
 
 
 # API PAYLOAD
