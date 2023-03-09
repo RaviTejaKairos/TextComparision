@@ -1,7 +1,7 @@
 # TextComparision
 Comparing two images text by converting images into text by using pytesseract,Then comparing the text with the co-ordinates. 
 
-# execution
+# Execution
 
 1. Install tesseract using windows installer available at: https://github.com/UB-Mannheim/tesseract/wiki
 
