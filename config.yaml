@@ -5,3 +5,8 @@ path:
 co-ordinates_range :
   x: 30
   y: 30
+
+constants:
+  threshold_value: 100
+  ar: 30
+
